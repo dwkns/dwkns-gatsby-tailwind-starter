@@ -1,5 +1,7 @@
 import React from "react"
 
-export default function Home() {
-  return <div className="bg-red-500">Hello world! Is tailwind working? </div>
+const IndexPage = () => {
+  return <div className="bg-red-500">Hello world! Is tailwind working? I'll have a red background if it is.</div>
 }
+
+export default IndexPage
